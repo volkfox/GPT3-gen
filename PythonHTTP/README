@@ -1,0 +1,10 @@
+How to run: 
+
+> python3 server.py
+
+Ctrl-A-d
+
+Testing:
+> curl -H "Cont":"Sharpie marker that is permanent and helps you being intentional."}' http://gpt-gen:8000/api
+
+curl -H "Content-Type: application/json" -X POST -d '{"prompt":"Slick exercise underwear that helps to eliminate the bad odor."}' http://127.0.0.1:8000/api
