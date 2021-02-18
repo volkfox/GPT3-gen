@@ -8,13 +8,13 @@ Testing::
 """
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from json import dumps
+from pathlib import Path
 import logging
 import json
 import openai
 
-
 openai.organization = "org-hcv4khFu94RvZ8R8qW65z2bN"
-openai.api_key = "sk-wW051wwArhgukYWrNs33OM763wi14rUfIIuOuJgH"
+openai.api_key = Path('api.key').read_text().replace('\n', '')
 
 prompt = """Product: Panda cheese
 Slogan: Never say no to Panda.
