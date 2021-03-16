@@ -1,6 +1,6 @@
 # GPT-3 tagline generator
-Generator off davinci and davinci-instruct model
-
+Generator off curie and davinci-instruct model
+Requires: Valid OPENAI key in file 'api.key'
 
 *Folders*:  
  
